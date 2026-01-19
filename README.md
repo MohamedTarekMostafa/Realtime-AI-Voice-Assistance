@@ -22,7 +22,7 @@ Before this version, I built a version using the traditional **Sequential Pipeli
 | **Nuance** | Pure Text Only | **Understands Tone & Emotion** |
 | **Flow** | Wait-to-talk (Walkie-talkie style) | **Seamless Interruptions** |
 
-> **Check out the old version here:** [EGYPTAIR Voice Pipeline Repo](https://github.com/MohamedTarekMostafa/Realtime-AI-Voice-Assistance)
+> **Check out the old version here:** [EGYPTAIR Voice Pipeline Repo]([https://github.com/MohamedTarekMostafa/Realtime-AI-Voice-Assistance](https://github.com/MohamedTarekMostafa/EGYPTAIR-AI-Voice-Assistant))
 
 ---
 
@@ -60,6 +60,7 @@ I'm planning to connect this directly to flight data systems so it can handle re
 
 ---
 *Made with ❤️ for the future of travel.*
+
 
 
 
