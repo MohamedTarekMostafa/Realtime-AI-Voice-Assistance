@@ -6,8 +6,6 @@ I wanted to build a voice assistant that doesn't just "process" your requests, b
 ###  The Experience
 https://github.com/user-attachments/assets/bbeaef0f-0359-410b-ad27-ddcefb6487f0
 
-> **Try it yourself:** Notice how the assistant handles natural interruptions and understands the emotional tone of the conversation—something traditional bots just can't do.
-
 ---
 
 ###  The Evolution: Why I moved to Realtime
@@ -49,6 +47,7 @@ I’m working on connecting this assistant to live flight databases. Soon, it wo
 
 ---
 *Built for a better travel experience. ✈️*
+
 
 
 
