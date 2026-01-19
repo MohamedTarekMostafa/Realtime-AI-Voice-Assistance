@@ -1,6 +1,6 @@
 #  EGYPTAIR Realtime API: Next-Gen Voice Experience
 
-Forget "press 1 for English." This project is an exploration of what's possible when you combine **Google’s Gemini 2.5 Flash Realtime API** with **LiveKit**. I’ve built a voice concierge for EGYPTAIR that processes audio natively—meaning it hears, thinks, and speaks in real-time without the lag of traditional "speech-to-text" loops.
+" This project is an exploration of what's possible when you combine **Google’s Gemini 2.5 Flash Realtime API** with **LiveKit**. I’ve built a voice concierge for EGYPTAIR that processes audio natively—meaning it hears, thinks, and speaks in real-time without the lag of traditional "speech-to-text" loops.
 
 ---
 
@@ -48,4 +48,5 @@ I'm planning to connect this directly to flight data systems so it can handle re
 ---
 
 *Made for the future of travel. *
+
 
