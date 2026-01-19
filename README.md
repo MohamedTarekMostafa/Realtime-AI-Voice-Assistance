@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/bbeaef0f-0359-410b-ad27-ddcefb6487f0
 
 Before this version, I built a version using the traditional **Sequential Pipeline** (STT -> LLM -> TTS). Transitioning to the **Gemini 2.5 Realtime API** changed the game.
 
-| Feature | [Traditional Pipeline]([YOUR_PIPELINE_REPO_LINK_HERE](https://github.com/MohamedTarekMostafa/Realtime-AI-Voice-Assistance)) | SkyTalk (Realtime API) |
+| Feature | [Traditional Pipeline]((https://github.com/MohamedTarekMostafa/Realtime-AI-Voice-Assistance)) | SkyTalk (Realtime API) |
 | :--- | :--- | :--- |
 | **Architecture** | 3 Separate Models (Delayed) | **End-to-End Native Audio** |
 | **Latency** | 3-5 Seconds (Robotic) | **< 1 Second (Human-like)** |
@@ -60,6 +60,7 @@ I'm planning to connect this directly to flight data systems so it can handle re
 
 ---
 *Made with ❤️ for the future of travel.*
+
 
 
 
