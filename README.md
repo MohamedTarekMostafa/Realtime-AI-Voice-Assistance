@@ -5,13 +5,9 @@ Forget "press 1 for English." This project is an exploration of what's possible 
 ---
 
 ### 📺 The Demo
-> **"Hey Gemini, how can I help you today?"**
->
-> ![EGYPTAIR Realtime Demo](
 
 https://github.com/user-attachments/assets/bbeaef0f-0359-410b-ad27-ddcefb6487f0
 
-)
 > *Watch how the Realtime API handles natural interruptions and emotional cues.*
 
 ---
@@ -52,3 +48,4 @@ I'm planning to connect this directly to flight data systems so it can handle re
 ---
 
 *Made for the future of travel. *
+
