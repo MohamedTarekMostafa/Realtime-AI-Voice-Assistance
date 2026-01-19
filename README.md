@@ -8,7 +8,10 @@ Forget "press 1 for English." This project is an exploration of what's possible 
 > **"Hey Gemini, how can I help you today?"**
 >
 > ![EGYPTAIR Realtime Demo](
-Uploading speech to speech model.mp4…)
+
+https://github.com/user-attachments/assets/bbeaef0f-0359-410b-ad27-ddcefb6487f0
+
+)
 > *Watch how the Realtime API handles natural interruptions and emotional cues.*
 
 ---
