@@ -1,67 +1,54 @@
 # Flying at the Speed of Sound: A Realtime AI Voice Experience for EGYPTAIR
-
-This project is an exploration of what's possible when you combine **Google’s Gemini 2.5 Flash Realtime API** with **LiveKit**. I’ve built a voice concierge for EGYPTAIR that processes audio natively—meaning it hears, thinks, and speaks in real-time without the lag of traditional "speech-to-text" loops.
+I wanted to build a voice assistant that doesn't just "process" your requests, but actually *listens* and *responds* like a human. No more awkward pauses, no more robotic lag. Using **Google’s Gemini 2.5 Flash Realtime API** and **LiveKit**, I’ve created a seamless, low-latency voice experience for EGYPTAIR travelers.
 
 ---
 
-### 📺 The Demo
+###  The Experience
 https://github.com/user-attachments/assets/bbeaef0f-0359-410b-ad27-ddcefb6487f0
 
-> *Watch how the Realtime API handles natural interruptions and emotional cues.*
+> **Try it yourself:** Notice how the assistant handles natural interruptions and understands the emotional tone of the conversation—something traditional bots just can't do.
 
 ---
 
-### 🚀 The Evolution: Pipeline vs. Realtime API
+###  The Evolution: Why I moved to Realtime
+Before this, I built a [Traditional Voice Pipeline](https://github.com/MohamedTarekMostafa/EGYPTAIR-AI-Voice-Assistant). While it worked, it felt like a walkie-talkie. Here is why the **Realtime API** is a game-changer:
 
-Before this version, I built a version using the traditional **Sequential Pipeline** (STT -> LLM -> TTS). Transitioning to the **Gemini 2.5 Realtime API** changed the game.
-
-| Feature | [Traditional Pipeline]((https://github.com/MohamedTarekMostafa/Realtime-AI-Voice-Assistance)) | SkyTalk (Realtime API) |
+| Feature | [Traditional Pipeline (Old)](https://github.com/MohamedTarekMostafa/EGYPTAIR-AI-Voice-Assistant) | SkyTalk Realtime (Current) |
 | :--- | :--- | :--- |
-| **Architecture** | 3 Separate Models (Delayed) | **End-to-End Native Audio** |
-| **Latency** | 3-5 Seconds (Robotic) | **< 1 Second (Human-like)** |
-| **Nuance** | Pure Text Only | **Understands Tone & Emotion** |
-| **Flow** | Wait-to-talk (Walkie-talkie style) | **Seamless Interruptions** |
-
-> **Check out the old version here:** [EGYPTAIR Voice Pipeline Repo]([https://github.com/MohamedTarekMostafa/Realtime-AI-Voice-Assistance](https://github.com/MohamedTarekMostafa/EGYPTAIR-AI-Voice-Assistant))
+| **Feel** | Wait... think... talk (Robotic) | **Instant & Natural (Human)** |
+| **Latency** | 3-5 Seconds | **< 1 Second** |
+| **Brain** | 3 Separate Models (STT/LLM/TTS) | **Single Multimodal Brain** |
+| **Context** | Pure Text Only | **Hears Tone, Pitch & Emotion** |
 
 ---
 
-### ⚡ What makes the Realtime API special?
-Most voice bots convert your voice to text, process it, and then convert it back to speech. That's slow. By using the **Gemini 2.5 Flash Native Audio** model, this assistant:
+### What’s happening under the hood?
+Standard bots use a "telephone game" architecture—converting your voice to text, then text to text, then text back to voice. This project skips the middleman:
 
-* **Low Latency:** Responds in milliseconds. It feels like a real phone call.
-* **Audio Intelligence:** It doesn't just read words; it hears if you're stressed, happy, or in a hurry.
-* **True Fluidity:** It handles the "natural flow" of speech—you can interrupt it, and it will react just like a human concierge.
-
----
-
-### 🛠️ How I put it together
-* **Engine:** `gemini-2.5-flash-native-audio-preview` (The secret sauce for native audio).
-* **Infrastructure:** **LiveKit Agents** for seamless WebRTC audio streaming.
-* **Persona:** A custom-coded EGYPTAIR concierge that stays professional and welcoming.
+* **Native Audio Intelligence:** The `gemini-2.5-flash-native-audio-preview` engine hears your voice directly. It understands "Umm," "Uh," and your mood.
+* **Seamless Flow:** Powered by **LiveKit Agents**, the audio streams via WebRTC, allowing you to interrupt the assistant mid-sentence just like a real conversation.
+* **Persona-Driven:** Designed specifically as a professional EGYPTAIR concierge—welcoming, helpful, and concise.
 
 ---
 
-### 💻 Set it up yourself
+###  Getting Started
 1.  **Clone & Install:**
     ```bash
     pip install livekit-agents livekit-plugins-google python-dotenv
     ```
-2.  **Keys:** Add your `GOOGLE_API_KEY` and `LIVEKIT` credentials to a `.env` file.
-3.  **Launch:**
+2.  **Configuration:** Add your `GOOGLE_API_KEY`, `LIVEKIT_URL`, `LIVEKIT_API_KEY`, and `LIVEKIT_API_SECRET` to a `.env` file.
+3.  **Launch the Agent:**
     ```bash
     python main.py dev
     ```
 
 ---
 
-### 🌍 Future Flight Path
-I'm planning to connect this directly to flight data systems so it can handle real-time booking and gate updates through the same Realtime API interface.
+### 🌍 What's next?
+I’m working on connecting this assistant to live flight databases. Soon, it won't just talk—it will be able to rebook your flight or check your gate status in real-time.
 
 ---
-*Made with ❤️ for the future of travel.*
-
-
+*Built for a better travel experience. ✈️*
 
 
 
