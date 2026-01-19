@@ -7,7 +7,8 @@ Forget "press 1 for English." This project is an exploration of what's possible 
 ### 📺 The Demo
 > **"Hey Gemini, how can I help you today?"**
 >
-> ![EGYPTAIR Realtime Demo](YOUR_LINK_HERE)
+> ![EGYPTAIR Realtime Demo](
+Uploading speech to speech model.mp4…)
 > *Watch how the Realtime API handles natural interruptions and emotional cues.*
 
 ---
@@ -46,4 +47,5 @@ By using the **Gemini 2.5 Flash Native Audio** model, this assistant:
 I'm planning to connect this directly to flight data systems so it can handle real-time booking and gate updates through the same Realtime API interface.
 
 ---
+
 *Made for the future of travel. *
