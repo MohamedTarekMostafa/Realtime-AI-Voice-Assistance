@@ -15,14 +15,14 @@ https://github.com/user-attachments/assets/bbeaef0f-0359-410b-ad27-ddcefb6487f0
 
 Before this version, I built a version using the traditional **Sequential Pipeline** (STT -> LLM -> TTS). Transitioning to the **Gemini 2.5 Realtime API** changed the game.
 
-| Feature | [Traditional Pipeline]([YOUR_PIPELINE_REPO_LINK_HERE](https://github.com/MohamedTarekMostafa/EGYPTAIR-AI-Voice-Assistant)) | SkyTalk (Realtime API) |
+| Feature | [Traditional Pipeline](YOUR_PIPELINE_REPO_LINK_HERE) | SkyTalk (Realtime API) |
 | :--- | :--- | :--- |
 | **Architecture** | 3 Separate Models (Delayed) | **End-to-End Native Audio** |
 | **Latency** | 3-5 Seconds (Robotic) | **< 1 Second (Human-like)** |
 | **Nuance** | Pure Text Only | **Understands Tone & Emotion** |
 | **Flow** | Wait-to-talk (Walkie-talkie style) | **Seamless Interruptions** |
 
-> **Check out the old version here:** [EGYPTAIR Voice Pipeline Repo]((https://github.com/MohamedTarekMostafa/EGYPTAIR-AI-Voice-Assistant))
+> **Check out the old version here:** [EGYPTAIR Voice Pipeline Repo](https://github.com/MohamedTarekMostafa/Realtime-AI-Voice-Assistance)
 
 ---
 
@@ -60,7 +60,5 @@ I'm planning to connect this directly to flight data systems so it can handle re
 
 ---
 *Made with ❤️ for the future of travel.*
-
-
 
 
