@@ -26,7 +26,7 @@ Before this version, I built a version using the traditional **Sequential Pipeli
 
 ---
 
-### ⚡ What makes the Realtime API special?
+###  What makes the Realtime API special?
 Most voice bots convert your voice to text, process it, and then convert it back to speech. That's slow. By using the **Gemini 2.5 Flash Native Audio** model, this assistant:
 
 * **Low Latency:** Responds in milliseconds. It feels like a real phone call.
@@ -35,14 +35,14 @@ Most voice bots convert your voice to text, process it, and then convert it back
 
 ---
 
-### 🛠️ How I put it together
+###  How I put it together
 * **Engine:** `gemini-2.5-flash-native-audio-preview` (The secret sauce for native audio).
 * **Infrastructure:** **LiveKit Agents** for seamless WebRTC audio streaming.
 * **Persona:** A custom-coded EGYPTAIR concierge that stays professional and welcoming.
 
 ---
 
-### 💻 Set it up yourself
+###  Set it up yourself
 1.  **Clone & Install:**
     ```bash
     pip install livekit-agents livekit-plugins-google python-dotenv
@@ -57,4 +57,3 @@ Most voice bots convert your voice to text, process it, and then convert it back
 
 
 
----
