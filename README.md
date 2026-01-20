@@ -42,11 +42,11 @@ Standard bots use a "telephone game" architecture—converting your voice to tex
 
 ---
 
-### 🌍 What's next?
+###  What's next?
 I’m working on connecting this assistant to live flight databases. Soon, it won't just talk—it will be able to rebook your flight or check your gate status in real-time.
 
 ---
-*Built for a better travel experience. ✈️*
+
 
 
 
